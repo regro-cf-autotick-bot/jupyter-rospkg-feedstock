@@ -1,5 +1,5 @@
 {% set name = "jupyter-rospkg" %}
-{% set version = "0.2.1" %}
+{% set version = "0.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/jupyter_rospkg-{{ version }}.tar.gz
-  sha256: 2c0379aa510ed6cf70dbc88319e79ee58e5bf2afb37c4c81c39b152f927bdfde
+  sha256: 53b3cbc05095676d8ba2a4a321e7fb7c1f7b0c5c6b580259bcc597bb320d28b5
 
 build:
   noarch: python
